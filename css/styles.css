@@ -104,7 +104,16 @@ article {
 .mainBlog article p {
     font-weight: 350;
 }
-
+.mainBlog .promo {
+    width: 100%;
+    max-width: 10rem;
+    height: 2rem;
+    max-height: 100%;
+    align-items: center;
+    position: absolute;
+    color: black;
+    background-color: #fdff88;
+}
 @media screen and (max-width: 600px) {
     .mainBlog {
         gap: 1.5rem;
@@ -113,11 +122,10 @@ article {
         display: none;
     }
 }
-
 footer {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    align-items: left;
+
 }
 footer div {
     flex: 1;
